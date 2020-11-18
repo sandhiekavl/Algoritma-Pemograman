@@ -4,6 +4,6 @@ def perkalian (n) :
         hasil = hasil * x
     return hasil
 
-a = list(map(int, input('angka? ').split()))
+a = list(map(int, input('Masukkan angka: ').split()))
 print (a)
-print (perkalian(a))
+print ('Hasil perkalian ',perkalian(a))
